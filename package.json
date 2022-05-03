@@ -1,0 +1,9 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Collection of codes developed during a TypeScript course I'm doing to understand better how the language works and all its capabilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
