@@ -4,6 +4,10 @@
   "description": "Collection of codes developed during a TypeScript course I'm doing to understand better how the language works and all its capabilities.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsnd --respawn --transpile-only --ignore-watch node_modules src/program"
+  },
+  "dependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.4"
   }
 }
