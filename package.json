@@ -4,7 +4,9 @@
   "description": "Collection of codes developed during a TypeScript course I'm doing to understand better how the language works and all its capabilities.",
   "main": "index.js",
   "scripts": {
-    "start": "tsnd --respawn --transpile-only --ignore-watch node_modules src/program"
+    "build": "tsc",
+    "dev": "tsnd --respawn --transpile-only --ignore-watch node_modules src/program",
+    "start": "node dist/program.js"
   },
   "dependencies": {
     "ts-node-dev": "^1.1.8",
